@@ -8,12 +8,15 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>我的奥利奥只准我泡博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="个人技术博客">
+<meta property="og:type" content="website">
 <meta property="og:title" content="我的奥利奥只准我泡博客">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="我的奥利奥只准我泡博客">
+<meta property="og:description" content="个人技术博客">
 <meta property="og:locale">
 <meta property="article:author" content="我的奥利奥只准我泡">
+<meta property="article:tag" content="技术记录">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="我的奥利奥只准我泡博客" type="application/atom+xml">
@@ -46,17 +49,15 @@
 			<img src="/img/avatar.png" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/"></a></h1>
+		  <h1 class="header-author"><a href="/">我的奥利奥只准我泡</a></h1>
 		</hgroup>
+		
+		<p class="header-subtitle">有所执，方有所成</p>
 		
 
 		<nav class="header-menu">
 			<ul>
 			
-				<li><a href="/">主页</a></li>
-	        
-				<li><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
-	        
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
@@ -104,14 +105,12 @@
 				<img src="/img/avatar.png" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author"></h1>
+			  <h1 class="header-author js-header-author">我的奥利奥只准我泡</h1>
 			</hgroup>
 			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>有所执，方有所成<i class="icon icon-quo-right"></i></p>
 			
 			
-				
-			
-				
 			
 			
 			
@@ -133,10 +132,6 @@
 				<ul style="width: 50%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
-		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
-		        
 				</ul>
 			</nav>
 		</header>				
@@ -173,27 +168,13 @@
     <div class="article-entry" itemprop="articleBody">
       
         <hr>
-<p>#GitHub是什么？<br>作为程序员GitHub是我们必然会接触到的一个网站，他是全球最大的同性交友网站，也是程序员的快乐时光机<del>~</del><br>咳咳，简单的来说GitHub可以类似于一个程序员保存源代码的网盘。是一个开源代码库。但它又不仅仅是一个网盘，程序员在上面还可以做一些其他的事。<br>现在GitHub的特点主要有三个:</p>
-<ul>
-<li>第一就是云的概念，代码可以存在云端git的网站上，就像我们在各种设备间都能浏览到自己存储的网盘文件一样，我们在各个设备间都能访问到自己的代码。</li>
-<li>第二个就是它的社交属性。因为代码是开源的，每个人都可以浏览别人的项目并提出意见，而且它像微博一样，你能粉别人，也能被别人粉。如果你是大牛，如果你或者你的项目够有趣，你就会有很多粉丝，你的项目也会被更多的人star。</li>
-<li>第三就是它能给团队合作带来很大帮助。现在有些公司就是用github来开发项目的。github允许多人多分支的工作，并且标示别人的修改和备注，最后还能合并。</li>
-</ul>
-<p>GitHub是我们学习路上必然使用到的网站，当然是越早接触越好啦，里面有很多大牛、很多优秀的开源项目给我们学习。</p>
-<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/wutiantian/p/10835019.html"> 学习 GitHub 有什么好处？</a></p>
-<p>#如何在GitHub上面找到心仪的开源项目<br>大体了解GitHub之后就是在上面找项目了。<br>首先进入<a target="_blank" rel="noopener" href="https://github.com/">GitHub官网</a>，在搜索栏输入想要的项目相关关键字。<br><img src="https://upload-images.jianshu.io/upload_images/14547917-ae304981803307a1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="搜索"><br>我们可以看到搜索结果有上万条，而Java的就有六千多个开源项目了，想要找到合适我们的项目必须加一点限制条件，下面是一些搜索关键字（筛选条件）</p>
-<ul>
-<li>in:name xxx // 按照项目名搜索</li>
-<li>in:readme xxx // 按照README搜索</li>
-<li>in:description xxx // 按照description搜索<br>那么在这里面呢，我们又可以增加筛选条件：</li>
-<li>stars:&gt;xxx // stars数大于xxx</li>
-<li>forks:&gt;xxx // forks数大于xxx</li>
-<li>language:xxx // 编程语言是xxx</li>
-<li>pushed:&gt;YYYY-MM-DD // 最后更新时间大于YYYY-MM-DD<br>这就是我们在GitHub上面精准搜索项目的一些小技巧<br><img src="https://upload-images.jianshu.io/upload_images/14547917-d3299d9caa02f9ae.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="搜索"><br>筛选完之后就只有十个啦，我们选择一个下载下来。<br><img src="https://upload-images.jianshu.io/upload_images/14547917-969a4bc40633af07.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="下载.png"><br>#运行项目<br>下载好之后我们使用idea运行项目，当然，在运行之前我们需要装好相关依赖比如Maven，Gradle，shiro等，项目不同所需的也不同。<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/wanliangsoft/article/details/86533754">Shiro安装教程</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/a805814077/article/details/100545928">Maven安装教程</a><br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/NyanKoSenSei/p/11458953.html">Gradle安装教程</a><br><a target="_blank" rel="noopener" href="https://www.runoob.com/redis/redis-install.html">Redis安装教程</a><br>我们现在idea打开项目，然后等待其自动构建结束<br><img src="https://upload-images.jianshu.io/upload_images/14547917-cf8edcc43182de40.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="打开项目"><br><img src="https://upload-images.jianshu.io/upload_images/14547917-ed95d0c5ba45def4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="等待构建"><br>构建好之后运行可能会出现很多配置缺失，我们照着错误提示补上就好了，比如数据库、Maven路径等等。<br><img src="https://upload-images.jianshu.io/upload_images/14547917-82c330416cbe3613.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="数据库错误.png"><br>解决完这些基本配置问题之后我们的项目就运行起来了。<br><img src="https://upload-images.jianshu.io/upload_images/14547917-cccae61456e8e899.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="项目启动"><br><img src="https://upload-images.jianshu.io/upload_images/14547917-a3fe3e8c9a3367da.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="登录界面"><br><img src="https://upload-images.jianshu.io/upload_images/14547917-87996a7513229a20.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="主界面"><br>项目运行起来之后我们就可以结合界面来阅读源码了。阅读开源项目有点像小学的时候学习写作文，一开始大家都是先模仿那些写得好的作文琢磨他们是怎么写，然后模仿他们的写作方式，最后融汇贯通成为自己的。<br>同样的编程也是如此，一开始我们看了很多教学视频也学会了不少编程的技巧，也想要自己去做点东西，但是又不知道如何下手。这时候阅读开源项目就是最好的老师。</li>
-</ul>
-<p>1.我们可以学会如果组织和架构一个项目，具体来说你可以看一下高手们他们是如何安排他们的代码，那些功能应该放在那里。这些是在书上学不到的。<br>2.我们可以学会那些很了不起的功能它们是如何实现的，知其然知其所以然，这样在以后的工作中如果我们了解具体的实现原理，我们也可以定制化一个符合自己需求的功能。<br>3.我们可以学会团队合作，如何对一个项目真的十分感兴趣的话，我们也可以参与进去成为该项目的贡献者。</p>
-
+<p>#GitHub是什么？<br>作为程序员GitHub是我们必然会接触到的一个网站，他是全球最大的同性交友网站，
+        
+          <a class="article-more-a" href="/2020/09/06/%E5%A6%82%E4%BD%95%E5%9C%A8GitHub%E4%B8%8A%E9%9D%A2%E6%89%BE%E5%88%B0%E8%87%AA%E5%B7%B1%E5%BF%83%E4%BB%AA%E7%9A%84%E9%A1%B9%E7%9B%AE%E5%B9%B6%E8%BF%90%E8%A1%8C/#more">more >></a>
+        
       
+	  
+	  
 
       
     </div>
@@ -205,6 +186,140 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2020/09/06/%E5%A6%82%E4%BD%95%E5%9C%A8GitHub%E4%B8%8A%E9%9D%A2%E6%89%BE%E5%88%B0%E8%87%AA%E5%B7%B1%E5%BF%83%E4%BB%AA%E7%9A%84%E9%A1%B9%E7%9B%AE%E5%B9%B6%E8%BF%90%E8%A1%8C/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-GET和POST两种基本方法的使用和区别" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/11/09/GET%E5%92%8CPOST%E4%B8%A4%E7%A7%8D%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8%E5%92%8C%E5%8C%BA%E5%88%AB/">GET和POST两种基本方法的使用和区别</a>
+    </h1>
+  
+
+        
+        <a href="/2018/11/09/GET%E5%92%8CPOST%E4%B8%A4%E7%A7%8D%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8%E5%92%8C%E5%8C%BA%E5%88%AB/" class="archive-article-date">
+  	<time datetime="2018-11-09T13:48:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-09</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>GET和POST是HTTP请求的两种最基本的方法，使用node.js时GET和POST也是就传输数据最基本的方法了，虽然两者都是传输数据，但是这两个东西是有挺大区别的
+        
+          <a class="article-more-a" href="/2018/11/09/GET%E5%92%8CPOST%E4%B8%A4%E7%A7%8D%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8%E5%92%8C%E5%8C%BA%E5%88%AB/#more">more >></a>
+        
+      
+	  
+	  
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/11/09/GET%E5%92%8CPOST%E4%B8%A4%E7%A7%8D%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8%E5%92%8C%E5%8C%BA%E5%88%AB/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-用http模块创建一个简易的服务器" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/11/05/%E7%94%A8http%E6%A8%A1%E5%9D%97%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8/">用http模块创建一个简易的服务器</a>
+    </h1>
+  
+
+        
+        <a href="/2018/11/05/%E7%94%A8http%E6%A8%A1%E5%9D%97%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="archive-article-date">
+  	<time datetime="2018-11-05T13:48:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-05</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>搭建一个简易的服务器是学习后台的入门，而http模块是中的http协议是一个属于应用层的面向对象的协议，由于其简捷、快速的方式，适用于分布式超媒体信息系统。所以node.js搭建后台这个模块是不可缺少的东西，http模块搭建简易的服务器是很简单的，只要下面几行代码就可以实现了。</p>
+        
+          <a class="article-more-a" href="/2018/11/05/%E7%94%A8http%E6%A8%A1%E5%9D%97%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8/#more">more >></a>
+        
+      
+	  
+	  
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/11/05/%E7%94%A8http%E6%A8%A1%E5%9D%97%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E6%98%93%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8/">展开全文 >></a>
         </p>
       
 
@@ -406,7 +521,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">学生党&lt;br&gt;&lt;br&gt;用0和1，去勾勒眼前苍穹！&lt;br&gt;用代码，去创造心中世界！&lt;br&gt;不断努力，不断进步！</div>
   	  	
     	</section>
     
@@ -480,5 +595,5 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 
 </div>
   </div>
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-shizuku"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
 </html>

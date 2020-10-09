@@ -961,16 +961,16 @@ html {
 }
 
 .left-col #header a {
-	color: #673ab7
+	color: #151515
 }
 
 .left-col #header a:hover {
-	color: #673ab7
+	color: #151515
 }
 
 .left-col #header .header-subtitle {
 	text-align: center;
-	color: #999;
+	color: #151515;
 	font-size: 14px;
 	line-height: 25px;
 	overflow: hidden;
